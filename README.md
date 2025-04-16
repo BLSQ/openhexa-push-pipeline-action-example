@@ -31,4 +31,15 @@ jobs:
 8. Any push to the main branch will trigger the workflow and push the pipeline to OpenHEXA.
 9. Enjoy the automation!
 
+## Example
+
+This repository contains a minimal example of how to use the OpenHEXA Push Pipeline Github Action.
+When pushing a change to the main branch, a new version of the pipeline will be pushed to OpenHEXA.
+
+![openhexa.png](images/openhexa.png)
+
+
+A link to the diff commit will be added to the version comment.
+
+![github.png](images/github.png)
 
