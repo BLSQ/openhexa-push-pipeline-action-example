@@ -3,7 +3,7 @@
 from openhexa.sdk import current_run, pipeline, parameter
 
 
-@pipeline("code")
+@pipeline("example")
 def simple_etl():
     """Write your pipeline orchestration here.
 

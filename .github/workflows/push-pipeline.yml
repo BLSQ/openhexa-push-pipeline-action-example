@@ -6,13 +6,13 @@ on:
       - main
 
 jobs:
-  deploy:
+  push-pipeline:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Test Custom Action
-        uses: blsq/openhexa-push-pilelin-action@v1
+      - name: Push pipeline on OpenHEXA
+        uses: blsq/openhexa-push-pipeline-action@v1.0.0
         with:
-          - token: ${{ secrets.OH_TOKEN }}
-          - workspace: openhexa-push-pipeline-action-example
-          - pipeline: example
+          token: ${{ secrets.OH_TOKEN }}
+          workspace: openhexa-push-pipeline-action-example
+          pipeline: example
