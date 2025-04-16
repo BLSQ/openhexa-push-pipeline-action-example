@@ -36,10 +36,12 @@ jobs:
 This repository contains a minimal example of how to use the OpenHEXA Push Pipeline Github Action.
 When pushing a change to the main branch, a new version of the pipeline will be pushed to OpenHEXA.
 
-![openhexa.png](images/openhexa.png)
+<img width="1470" alt="Screenshot 2025-04-16 at 16 24 43" src="https://github.com/user-attachments/assets/8f20e519-df87-4484-abb6-376273362f8f" />
+
 
 
 A link to the diff commit will be added to the version comment.
 
-![github.png](images/github.png)
+<img width="1489" alt="Screenshot 2025-04-16 at 16 24 18" src="https://github.com/user-attachments/assets/9f22c0a1-9b3c-4f7a-8a61-5ce2ec0fcd4a" />
+
 
