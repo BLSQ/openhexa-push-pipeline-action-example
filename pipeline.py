@@ -18,7 +18,7 @@ def task_1():
     """Put some data processing code here."""
     current_run.log_info("In task 1...")
 
-    return 43
+    return 44
 
 
 @simple_etl.task
